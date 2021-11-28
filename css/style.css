@@ -46,6 +46,34 @@ body{
 	background-size:cover;
 	min-height: 550px;
 }
+.card-group{
+	margin-top: 10em;
+}
+
+/* Mis estilos*/
+.row {
+	display: flex;
+	padding: 4%;
+  }
+  
+.column {
+flex: 33.33%;
+padding: 15px;
+}
+
+.column h3 {
+padding: 5%;
+font-weight: 700;
+}
+.column a{
+text-decoration: none;
+color: white;
+}
+
+
+
+/*=====*/
+
 .header-top {
 	padding-top: 3em;
 }
@@ -54,6 +82,7 @@ body{
 	
 }
 .top-menu{
+	margin-top: -5em;
 	float:right;
 }
 .top-menu ul li{
@@ -141,23 +170,25 @@ nav a:focus {
 .banner_center {
 	width: 50%;
 	position: absolute;
-	top: 40%;
+	top: 20%;
 	left: 25%;
 	text-align: center;
 
 }
 .banner_center h1 {
 	color: #eee;
-	font-family: 'Arvo', serif;
 	text-transform: uppercase;
 	font-size: 2.4em;
 }
 .banner_center h2 {
 	color: #eee;
-	font-family: 'Arvo', serif;
 	text-transform: uppercase;
 	font-size: 2.4em;
 	padding:7px 0;
+}
+.banner_center p {
+	color: #eee;
+	text-transform: uppercase;
 }
 .banner_center h2 span
 {
@@ -208,11 +239,10 @@ ul.wmuSliderPagination {
 }
 .services-header h3
 {
-	font-size: 2.5em;
-	font-family: 'Arvo', serif;
+	font-size: 4.5em;
 	text-transform: uppercase;
-	font-weight: 400;
-	color: #2a404e;
+	font-weight: 800;
+	color: #ef664d;
 }
 .services-header h3 span {
 	color: #F0C514;
@@ -255,9 +285,8 @@ ul.wmuSliderPagination {
 .works-header h3
 {
 	font-size: 2.5em;
-	font-family: 'Arvo', serif;
 	text-transform: uppercase;
-	font-weight: 400;
+	font-weight: 800;
 	color: #ef664d;
 }
 .works-header h3 span {
@@ -630,9 +659,8 @@ h2.resp-accordion {
 }
 .about-header h3 {
 	font-size: 2.5em;
-	font-family: 'Arvo', serif;
 	text-transform: uppercase;
-	font-weight: 400;
+	font-weight: 900;
 	color: #2a404e;
 }
 .about-header h3 span {
@@ -645,8 +673,9 @@ h2.resp-accordion {
 	margin-right:5%
 }
 .about-imag img {
+	margin-top: -5%;
 	border: 2px solid #ef664d;
-	border-radius: 103px;
+	border-radius: 25%;
 }
 .about-text {
 	float: left;
